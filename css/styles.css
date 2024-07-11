@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #fcf5e9;
+  --container-normal: 1100px;
+  --container-wide: 1400px;
+  --contrainer-narrow: 900px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
@@ -24,22 +31,22 @@ img {
 
 /* Utilities */
 .bg-primary {
-  background-color: #fcf5e9;
+  background-color: var(--primary-color);
 }
 
 /* Container */
 .container {
-  max-width: 1100px;
+  max-width: var(--container-normal);
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
 .container-lg {
-  max-width: 1400px;
+  max-width: var(--container-wide);
 }
 
 .container-sm {
-  max-width: 900px;
+  max-width: var(--contrainer-narrow);
 }
 
 /* Header */
@@ -67,11 +74,11 @@ img {
 }
 
 .header .main-menu a:hover {
-  background-color: #fcf5e9;
+  background-color: var(--primary-color);
 }
 
 .current {
-  background-color: #fcf5e9;
+  background-color: var(--primary-color);
   font-weight: 600;
 }
 
