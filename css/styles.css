@@ -169,16 +169,30 @@ img {
   margin-bottom: 0.7rem;
 }
 
+/* Team - About Page */
+.team {
+  padding: 3rem 0 4rem;
+}
+
+.team .team-flex {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.team .team-item img {
+  border-radius: 10px;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
-  /* Header */
   .header .header-flex,
-  .footer .footer-flex {
+  .footer .footer-flex,
+  .services .services-flex,
+  .team .team-flex {
     flex-direction: column;
     gap: 1.5rem;
   }
 
-  /* Hero */
   .hero {
     height: 300px;
   }
@@ -187,12 +201,10 @@ img {
     font-size: 1.8rem;
   }
 
-  /* Gallery */
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Footer */
   .footer .footer-flex {
     text-align: center;
   }
