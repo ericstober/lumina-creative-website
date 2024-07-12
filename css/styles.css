@@ -34,6 +34,12 @@ img {
   background-color: var(--primary-color);
 }
 
+.section-heading {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /* Container */
 .container {
   max-width: var(--container-normal);
@@ -144,6 +150,23 @@ img {
 
 .footer a {
   margin: 0.2rem;
+}
+
+/* Services - About Page */
+.services {
+  background-color: #333;
+  color: #fff;
+  padding: 3rem 0 4rem;
+}
+
+.services .services-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.services .service-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
 }
 
 /* Media Queries */
