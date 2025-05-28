@@ -46,7 +46,3 @@ lumina-creative-website/
 ├── contact.html     # Contact page with form
 └── portfolio.html   # Portfolio showcase
 ```
-
-## License
-
-This project is licensed under the MIT License.
