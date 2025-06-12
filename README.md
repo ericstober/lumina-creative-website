@@ -1,6 +1,6 @@
 # Lumina Creative Website
 
-A responsive and modern website, showcasing create works, services, and contact information with an emphasis on design and usability.
+A responsive and modern website, showcasing creative works, services, and contact information with an emphasis on design and usability.
 
 ## Features
 
